@@ -1,0 +1,44 @@
+.meals {
+    max-width: 60rem;
+    width: 90%;
+    margin: 2rem auto;
+    animation: meals-appear 1s ease-out forwards;
+    background-color: aliceblue;
+    border-radius: 12px;
+  }
+  
+  .meals ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .div{
+  font-size: larger;
+  font-style: normal;
+  border: 2px solid salmon;
+  background-color: lightsalmon;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  .div button{
+    font-size: larger;
+    border-radius: 6px;
+    background-color:rgb(223, 30, 88);
+    padding: 15px;
+    margin:8px;
+
+  }
+  .div input{
+    border-radius: 4px;
+    padding: 15px;
+  }
+
+  @keyframes meals-appear {
+    from {    opacity: 0;
+        transform: translateY(3rem);
+      }
+    
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
